@@ -29,7 +29,7 @@ end
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
   if hash[key]
-   return hash[key]=hash[key]+1 
+   return hash[key]=hash{key=>+1} 
   else 
     return hash[key]={key=>1} 
   end
